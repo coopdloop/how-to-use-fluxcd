@@ -7,6 +7,6 @@ spec:
   interval: 1m0s
   ref:
     branch: main
-  url: git@github.com:coopdloop/how-to-use-fluxcd.git
+  url: ssh://git@github.com:coopdloop/how-to-use-fluxcd.git
   secretRef:
     name: example-app-2-github
